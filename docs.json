@@ -38,11 +38,6 @@
           "anchor": "Blog",
           "href": "https://mintlify.com/blog",
           "icon": "newspaper"
-        },
-        {
-          "anchor": "Icon Canary",
-          "href": "/",
-          "icon": "{<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\"><title>{'MINTLIFY_ICON_PROCESS_' + typeof process}</title><circle cx=\"8\" cy=\"8\" r=\"6\" /></svg>}"
         }
       ]
     }
