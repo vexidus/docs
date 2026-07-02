@@ -1,0 +1,32 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "OpenAPI Ref Canary",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://example.com"
+    }
+  ],
+  "paths": {
+    "/ref-bypass": {
+      "get": {
+        "summary": "OpenAPI ignored ref canary",
+        "operationId": "getOpenApiIgnoredRefCanary",
+        "responses": {
+          "200": {
+            "description": "Canary response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "./drafts/ignored-openapi-schema.json"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
