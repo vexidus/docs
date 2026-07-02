@@ -25,10 +25,6 @@
           "quickstart"
         ]
       },
-      {
-        "group": "OpenAPI Ref Canary",
-        "openapi": "openapi-ref-bypass.json"
-      },
       "pocmrknight"
     ],
     "global": {
